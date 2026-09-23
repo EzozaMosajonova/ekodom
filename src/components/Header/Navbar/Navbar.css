@@ -1,0 +1,35 @@
+.navbar_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_logo {
+    font-family: "Golos Text";
+    color: #ffff;
+    font-size: 16px;
+}
+
+.navbar_logo a {
+    font-family: "Golos Text";
+    color: #ffff;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar_list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar_list a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    font-weight: 500;
+    transition: 0.3s;
+}
