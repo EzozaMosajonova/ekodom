@@ -1,0 +1,55 @@
+.about {
+    background-color: #1E262F;
+    padding: 150px;
+}
+
+.about_content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.about_menu {
+    width: 40%;
+}
+
+.about_menu p {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+    font-family: "Inter";
+    color: #ffff;
+}
+.about_menu small {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px;
+    font-family: "Inter";
+    color: #ffffff45;
+    display: block;
+}
+
+.about_title {
+    width: 25%;
+    font-size: 38px;
+    font-family: "Oranienbaum";
+    color: #f9f8f8a9;
+}
+
+.about_info {
+    width: 40%;
+}
+
+.about_image {
+    width: 50%;
+    margin-left: 70px;
+}
+
+.about_text {
+    margin-top: 40px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter";
+    color: #ffffff45;
+    margin-bottom: 20px;
+}

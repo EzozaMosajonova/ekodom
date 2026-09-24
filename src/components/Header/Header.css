@@ -7,3 +7,41 @@
     background-repeat: no-repeat;
     height: 800px;
 }
+
+.Header_content {
+    display: flex;
+    gap: 50px;
+}
+
+.Header_info {
+    width: 45%;
+    margin-top: 170px;
+    margin-left: 95px;
+}
+
+.Header_subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Golos Text";
+    color: #ffff;
+}
+
+.Header_title {
+    font-size: 70px;
+    font-weight: 800;
+    margin: 0;
+    font-family: "Golos Text";
+    color: #ffff;
+}
+
+.Header_button {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px 0px;
+    padding: 15px 55px;
+    font-family: "Golos Text";
+    color: #ffff;
+    background-color: rgb(12, 11, 11);
+    border: none ;
+    border-radius: 20px;
+}

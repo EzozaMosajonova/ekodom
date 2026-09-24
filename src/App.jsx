@@ -8,14 +8,16 @@ import Question from './components/Question/Question'
 import Category from './components/Category/Category'
 import Footer from './components/Footer/Footer'
 import "./App.css"
+// import Mustaqil from './components/mustaqil/mustaqil'
 
 const App = () => {
   return (
     <>
       <Header />
+      <About />
       <div className='container'>
-        <About />
         <Estimate />
+        {/* <Mustaqil/> */}
         <Canlendar />
         <Question />
         <Category />
